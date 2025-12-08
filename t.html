@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mt Kenya Drilling Ltd</title>
+  <!-- Tailwind Play CDN for quick prototyping (replace with a proper build for production) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --brand: #0b5ed7; }
+    .font-poppins { font-family: 'Poppins', sans-serif; }
+    /* Quick gradient overlay for hero background */
+    .hero-bg { background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.45)), url('https://images.unsplash.com/photo-1629904854029-ef7d9a710db1?auto=format&fit=crop&w=1600&q=60'); background-size: cover; background-position: center; }
+  </style>
+</head>
+<body class="font-poppins text-gray-800 antialiased">
+
+  <!-- Header / Nav -->
+  <!-- Header Only (Navigation) -->
+<header class="bg-gray-900 text-white">
+  <div class="max-w-7xl mx-auto px-6">
+    <nav class="flex items-center justify-between py-6">
+      <h1 class="text-lg font-semibold tracking-wide">Mt Kenya Drilling Ltd</h1>
+      <ul class="hidden md:flex items-center space-x-6">
+        <li><a href="#about" class="hover:opacity-90">About</a></li>
+        <li><a href="#services" class="hover:opacity-90">Services</a></li>
+        <li><a href="#sectors" class="hover:opacity-90">Sectors</a></li>
+        <li><a href="#insights" class="hover:opacity-90">Insights</a></li>
+        <li><a href="#contact" class="hover:opacity-90">Contact</a></li>
+      </ul>
+      <button class="md:hidden p-2 rounded bg-white/10">☰</button>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero Section With Background Image -->
+<section class="relative text-white overflow-hidden">
+  <!-- Background Image -->
+  <div class="absolute inset-0">
+    <img src="assets/images/2.jpeg" alt="Borehole Drilling" class="w-full h-full object-cover">
+    <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/80"></div>
+  </div>
+
+  <div class="relative max-w-7xl mx-auto px-6 text-center py-24 md:py-36">
+
+    <!-- Trust Badge -->
+    <span class="inline-block mb-4 px-4 py-1 text-xs tracking-wide uppercase rounded-full bg-white/10 backdrop-blur">
+      Trusted Borehole Experts
+    </span>
+
+    <!-- Main Heading -->
+    <h2 class="text-4xl md:text-5xl xl:text-6xl font-extrabold leading-tight max-w-4xl mx-auto">
+      Clean, Reliable Water  
+      <span style="color:var(--brand)">Where It Matters Most</span>
+    </h2>
+
+    <!-- Subheading -->
+    <p class="mt-6 text-sm md:text-base max-w-2xl mx-auto text-gray-200 leading-relaxed">
+      We deliver professional borehole drilling, hydrogeological surveys, pump installation and maintenance across the Mt Kenya region — for homes, farms, schools, and businesses.
+    </p>
+
+    <!-- Stats -->
+    <div class="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
+      <div class="flex flex-col items-center py-7 px-4 bg-white/10 backdrop-blur rounded-xl shadow-lg">
+        <div class="text-3xl">🛠️</div>
+        <div class="text-3xl font-extrabold mt-2" style="color:var(--brand)">100+</div>
+        <p class="text-sm mt-1 text-gray-200">Boreholes Completed</p>
+      </div>
+
+      <div class="flex flex-col items-center py-7 px-4 bg-white/10 backdrop-blur rounded-xl shadow-lg">
+        <div class="text-3xl">😊</div>
+        <div class="text-3xl font-extrabold mt-2" style="color:var(--brand)">98%</div>
+        <p class="text-sm mt-1 text-gray-200">Happy Clients</p>
+      </div>
+
+      <div class="flex flex-col items-center py-7 px-4 bg-white/10 backdrop-blur rounded-xl shadow-lg">
+        <div class="text-3xl">⏰</div>
+        <div class="text-3xl font-extrabold mt-2" style="color:var(--brand)">5+ Years</div>
+        <p class="text-sm mt-1 text-gray-200">Industry Experience</p>
+      </div>
+    </div>
+
+    <!-- Call To Action -->
+    <div class="mt-12 flex flex-col md:flex-row items-center justify-center gap-5">
+      <a href="#contact"
+        class="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-bold text-white shadow-lg transition hover:scale-105"
+        style="background:var(--brand)">
+        Get Free Site Visit
+      </a>
+
+      <p class="text-sm text-gray-200">
+        Call or WhatsApp:
+        <a href="tel:0742816391" class="underline font-semibold">0742 816 391</a>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+  <!-- About -->
+  <section id="about" class="py-14">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center mb-10">
+        <h3 class="text-2xl font-semibold text-[var(--brand)]">About Us</h3>
+        <p class="mt-2 text-gray-600">Your trusted partner for sustainable water solutions</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div>
+          <p class="text-gray-700">Mt Kenya Drilling Limited, founded in 2019, is a leading provider of borehole drilling and hydrogeology services in Meru, Isiolo, Nanyuki, and Tharaka Nithi Counties. Driven by a passion for reliable water access in underserved areas, we deliver precision projects using modern equipment and expert hydrogeologists.</p>
+
+          <div class="mt-6 space-y-4">
+            <div class="flex items-start gap-4">
+              <div class="text-xl">🤝</div>
+              <div>
+                <p class="font-semibold">Effective Teamwork</p>
+                <p class="text-sm text-gray-600">Our skilled team ensures seamless collaboration from survey to completion.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <div class="text-xl">⚡</div>
+              <div>
+                <p class="font-semibold">Innovation</p>
+                <p class="text-sm text-gray-600">Leveraging advanced technology for efficient, eco-friendly drilling.</p>
+              </div>
+            </div>
+
+            <p class="mt-2 text-gray-700">Our values: Sustainability, excellence, and community impact — because "Water is life, and we deliver it."</p>
+          </div>
+        </div>
+
+        <div>
+          <img src="assets/images/1.jpeg" alt="Our Team" class="w-full rounded-lg shadow-lg" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-14 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center mb-10">
+        <h3 class="text-2xl font-semibold text-[var(--brand)]">Our Services</h3>
+        <p class="mt-2 text-gray-600">Complete solutions with advanced technology and safety first</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <article class="bg-white rounded-lg p-6 shadow-sm">
+          <div class="text-3xl">🔍</div>
+          <h4 class="mt-4 text-lg font-semibold text-[var(--brand)]">Hydrogeology Survey</h4>
+          <span class="inline-block mt-2 px-3 py-1 text-sm rounded-full text-white" style="background:var(--brand)">Core Service</span>
+          <p class="mt-3 text-sm text-gray-600">Scientific assessment of groundwater availability using geophysical methods, soil analysis, and terrain mapping to pinpoint optimal drilling sites.</p>
+        </article>
+
+        <article class="bg-white rounded-lg p-6 shadow-sm">
+          <div class="text-3xl">🛠️</div>
+          <h4 class="mt-4 text-lg font-semibold text-[var(--brand)]">Borehole Drilling</h4>
+          <span class="inline-block mt-2 px-3 py-1 text-sm rounded-full text-white" style="background:var(--brand)">Core Service</span>
+          <p class="mt-3 text-sm text-gray-600">Precision drilling to depths of 30m-200m+ with rotary rigs, ensuring minimal environmental impact and maximum yield.</p>
+        </article>
+
+        <article class="bg-white rounded-lg p-6 shadow-sm">
+          <div class="text-3xl">🔌</div>
+          <h4 class="mt-4 text-lg font-semibold text-[var(--brand)]">Pump Installation</h4>
+          <span class="inline-block mt-2 px-3 py-1 text-sm rounded-full text-white" style="background:var(--brand)">Equipment</span>
+          <p class="mt-3 text-sm text-gray-600">Installation of solar, submersible, and electric pumps with energy-efficient designs for reliable, off-grid water supply.</p>
+        </article>
+
+        <article class="bg-white rounded-lg p-6 shadow-sm">
+          <div class="text-3xl">💧</div>
+          <h4 class="mt-4 text-lg font-semibold text-[var(--brand)]">Test Pumping</h4>
+          <span class="inline-block mt-2 px-3 py-1 text-sm rounded-full text-white" style="background:var(--brand)">Maintenance</span>
+          <p class="mt-3 text-sm text-gray-600">Comprehensive yield testing, performance evaluation, and water quality checks to guarantee sustainable output.</p>
+        </article>
+
+        <article class="bg-white rounded-lg p-6 shadow-sm">
+          <div class="text-3xl">🏗️</div>
+          <h4 class="mt-4 text-lg font-semibold text-[var(--brand)]">Borehole Casing & Development</h4>
+          <span class="inline-block mt-2 px-3 py-1 text-sm rounded-full text-white" style="background:var(--brand)">Construction</span>
+          <p class="mt-3 text-sm text-gray-600">High-quality PVC/steel casing installation, gravel packing, and development for long-lasting, contamination-free wells.</p>
+        </article>
+
+        <article class="bg-white rounded-lg p-6 shadow-sm">
+          <div class="text-3xl">🧹</div>
+          <h4 class="mt-4 text-lg font-semibold text-[var(--brand)]">Borehole Maintenance</h4>
+          <span class="inline-block mt-2 px-3 py-1 text-sm rounded-full text-white" style="background:var(--brand)">Maintenance</span>
+          <p class="mt-3 text-sm text-gray-600">Regular inspections, flushing, cleaning, and rehabilitation to restore efficiency and extend borehole lifespan.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Sectors -->
+  <section id="sectors" class="py-14">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center mb-10">
+        <h3 class="text-2xl font-semibold text-[var(--brand)]">Sectors We Serve</h3>
+        <p class="mt-2 text-gray-600">Reliable water solutions for diverse needs in Mt Kenya Region</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white rounded-lg p-6 text-center shadow-sm">
+          <div class="text-2xl">🏠</div>
+          <h4 class="mt-3 font-semibold">Households</h4>
+          <p class="text-sm text-gray-600 mt-1">Clean water for homes and families.</p>
+        </div>
+        <div class="bg-white rounded-lg p-6 text-center shadow-sm">
+          <div class="text-2xl">🌾</div>
+          <h4 class="mt-3 font-semibold">Farms</h4>
+          <p class="text-sm text-gray-600 mt-1">Irrigation and livestock support.</p>
+        </div>
+        <div class="bg-white rounded-lg p-6 text-center shadow-sm">
+          <div class="text-2xl">🏢</div>
+          <h4 class="mt-3 font-semibold">Businesses</h4>
+          <p class="text-sm text-gray-600 mt-1">Industrial and commercial supply.</p>
+        </div>
+        <div class="bg-white rounded-lg p-6 text-center shadow-sm">
+          <div class="text-2xl">🏭</div>
+          <h4 class="mt-3 font-semibold">Institutions</h4>
+          <p class="text-sm text-gray-600 mt-1">Schools, hospitals, and public projects.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Insights -->
+  <section id="insights" class="py-14 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center mb-10">
+        <h3 class="text-2xl font-semibold text-[var(--brand)]">Latest Insights</h3>
+        <p class="mt-2 text-gray-600">Stay updated on borehole tips and industry trends</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <article class="bg-white p-6 rounded-lg shadow-sm">
+          <h4 class="text-lg font-semibold text-[var(--brand)]">Signs Your Borehole Needs Flushing</h4>
+          <p class="mt-2 text-sm text-gray-600">Low yield, cloudy water? Learn when to maintain for optimal performance. <a href="#" class="text-[var(--brand)] underline">Read More</a></p>
+        </article>
+        <article class="bg-white p-6 rounded-lg shadow-sm">
+          <h4 class="text-lg font-semibold text-[var(--brand)]">PVC vs Steel Casing: Which is Best?</h4>
+          <p class="mt-2 text-sm text-gray-600">Compare options for durability and cost in Kenyan soils. <a href="#" class="text-[var(--brand)] underline">Read More</a></p>
+        </article>
+        <article class="bg-white p-6 rounded-lg shadow-sm">
+          <h4 class="text-lg font-semibold text-[var(--brand)]">Solar Pumps for Off-Grid Farms</h4>
+          <p class="mt-2 text-sm text-gray-600">Eco-friendly solutions rising in Mt Kenya – pros and setup guide. <a href="#" class="text-[var(--brand)] underline">Read More</a></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-14">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center mb-10">
+        <h3 class="text-2xl font-semibold text-[var(--brand)]">Contact Us</h3>
+        <p class="mt-2 text-gray-600">Ready to start your project? Get in touch today</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-lg p-6 text-center shadow-sm">
+          <h4 class="font-semibold text-[var(--brand)]">Phone Numbers</h4>
+          <p class="mt-3"><a href="tel:0742816391" class="text-[var(--brand)] underline">0742 816 391</a></p>
+          <p class="mt-1"><a href="tel:0741892890" class="text-[var(--brand)] underline">0741 892 890</a></p>
+          <p class="mt-1"><a href="tel:0780017008" class="text-[var(--brand)] underline">0780 017 008</a></p>
+          <p class="mt-1"><a href="tel:0710248966" class="text-[var(--brand)] underline">0710 248 966</a></p>
+        </div>
+
+        <div class="bg-white rounded-lg p-6 text-center shadow-sm">
+          <h4 class="font-semibold text-[var(--brand)]">Email</h4>
+          <p class="mt-3"><a href="mailto:mtkenyadrilling2019@gmail.com" class="text-[var(--brand)] underline">mtkenyadrilling2019@gmail.com</a></p>
+        </div>
+
+        <div class="bg-white rounded-lg p-6 text-center shadow-sm">
+          <h4 class="font-semibold text-[var(--brand)]">Service Areas</h4>
+          <p class="mt-3">Meru, Isiolo, Nanyuki &amp; Tharaka Nithi Counties</p>
+        </div>
+      </div>
+
+      <div class="mt-8 text-center text-sm text-gray-600">
+        <p>Other contacts: 0742816391 • 0741892890 • 0780017008 • 0710248966</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-200 py-8">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <p>© 2025 Mt Kenya Drilling Limited. All Rights Reserved. | Serving sustainable water solutions since 2019.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
